@@ -2,6 +2,7 @@
 ## Requirements
  environment.yaml
 ## Function of every notebook
+ argo_split: split the training data 70%, test data 30%. using ShuffleSplit to ensure these two sets have the same ratio.
  Anomaly_ratio_computing: compute low quality data ratio of every float.  
  AL_random_high/low: uncertainty, random sampling for high/low ratio float.  
  high/low_random_committe: initial labeled data is selected by random sampling，with active learning committee by query strategy.  
