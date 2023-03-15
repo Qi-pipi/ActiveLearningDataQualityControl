@@ -23,6 +23,7 @@
  Float & ratio (%).  
  6903102: 0.291678423.  
  3901890: 29.36446072.  
+ Seadatanet: 0.6948851.  
  
 ## resultes
 ### result: All experiment results
@@ -33,5 +34,9 @@
   random_high/low_un_1000.csv: random initial labeled data and top-rank strategy, 1000 query.  
   random_low_un_300/1000_top.csv: initial labeled data selected by top-rank stategy.
 ### image
+  F1/Kappa_high/low_random/last : random + Uncertainty. 
+  F1/Kappa_high/low_random/last_committee: committee    
+  F1_high/low_random_compare: best committee + uncertainty.  
+  un_random/high_xx:query xx with random initial labeled data. Unsupervised top rank strategy.  
 
   
