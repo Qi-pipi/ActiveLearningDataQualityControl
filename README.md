@@ -29,8 +29,8 @@
 ### result: All experiment results
   auto/if/oc_score_low_top.csv: all training data ranked by scores.  
   auto/if/oc_score_low/high.csv: unlabled data(initial labled data selected by random sampling).  
-  last_f1/kappa_Number.csv: random and uncertainty sampling result of float Number.   
-  last_f1/kappa_Number_committee.csv: committee sampling result of float Number.  
+  random_f1/kappa_Number.csv: random and uncertainty sampling result of float Number.   
+  random_Number_committee.csv: committee sampling result of float Number, includes Kappa and F1.  
   random_high/low_un_1000.csv: random initial labeled data and top-rank strategy, 1000 query.  
   random_low_un_300/1000_top.csv: initial labeled data selected by top-rank stategy.
 ### image
