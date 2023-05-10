@@ -7,14 +7,15 @@
  argo_split: split the training data 70%, test data 30%. using ShuffleSplit to ensure these two sets have the same ratio.  
  Anomaly_ratio_computing: compute low quality data ratio of every float.  
  Preprocessing_argo: Data exploration and preprocessing.  
- AL_random_high/low: uncertainty, random sampling for high/low ratio float.  
- high/low_random_committe: initial labeled data is selected by random sampling，with active learning committee by query strategy.    
+ AL_Uncertainty: uncertainty, random sampling for float.  
+ AL_committee: initial labeled data is selected by random sampling，with active learning committee by query strategy.    
  unsupervised+al+supervised_low/high: initial labeled data is selected by random sampling，4 unsupervised models computing quality score and using top-rank strategy.    
  unsupervised+al+supervised_low_top: initial labeled data is selected by quality score.    
  Visualization: visual results.  
+ TSNE : TSNE instances.
  
 ## Dataset
- Dataset_2: Original data.  
+ Dataset_1: Original data.  
  Dataset: Preprocessed data (normalization, generate label).  
  Randomtrain/Randomtest: ShuffleSplit data randomly with same ratio (70%,30%).  
  Firsttrain/Lasttrain: Find the last 30% data with the same low quality data ratio. The rest data is training data.   
@@ -23,7 +24,10 @@
  Float & ratio (%).  
  6903102: 0.291678423.  
  3901890: 29.36446072.  
- Seadatanet: 0.6948851.  
+ Seadatanet: 0.6948851. 
+ 4903220 : 0.16%.  
+ 6901195 : 16.03%.  
+ 3901684: 2.44%.  
  
 ## resultes
 ### result: All experiment results
