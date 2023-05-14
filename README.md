@@ -5,14 +5,19 @@
  
 ## Function of every notebook
  argo_split: split the training data 70%, test data 30%. using ShuffleSplit to ensure these two sets have the same ratio.  
- Anomaly_ratio_computing: compute low quality data ratio of every float.  
- Preprocessing_argo: Data exploration and preprocessing.  
+ Anomaly_ratio_computing: compute low quality data ratio of every float.   
+ Preprocessing_argo: Data exploration and preprocessing.   
  AL_Uncertainty: uncertainty, random sampling for float.  
- AL_committee: initial labeled data is selected by random sampling，with active learning committee by query strategy.    
- unsupervised+al+supervised_low/high: initial labeled data is selected by random sampling，4 unsupervised models computing quality score and using top-rank strategy.    
- unsupervised+al+supervised_low_top: initial labeled data is selected by quality score.    
- Visualization: visual results.  
- TSNE : TSNE instances.
+ AL_committee: initial labeled data is selected by random sampling, with active learning committee by query strategy.    
+ unsupervised+al+supervised_low/high: initial labeled data is selected by random sampling, 4 unsupervised models computing quality score and using top-rank strategy.    
+ unsupervised+al+supervised_low_top: initial labeled data is selected by quality score.     
+ Visualization: visual results.    
+ TSNE : TSNE instances.  
+ AL_Uncertainty_Labeled: test on labeled data.  
+ AL_Uncertainty_train: test on training set.  
+ AL_Uncertainty_mix_newinitial: mixed float, select 100 instance as initial random.  
+ AL_Uncertainty_mix_sameinitial: mixed float, select 100 instance with same amount from each initial set.  
+
  
 ## Dataset
  Dataset_1: Original data.  
